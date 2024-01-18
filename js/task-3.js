@@ -20,7 +20,7 @@ class StringBuilder {
   }
 
   padBoth(str) {
-    this.3value = str + this.#value + str;
+    this.#value = str + this.#value + str;
   }
 }
 
